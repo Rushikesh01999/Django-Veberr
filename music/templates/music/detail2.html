@@ -1,0 +1,71 @@
+{% extends 'music/base.html' %}
+{% block title %} Album details {% endblock%}
+{% block body %}
+<div class="container">
+	<div class="jumbotron">
+	<div class="row justify-content-center">
+		<div class="col-sm-4 ">
+			<div class="thumbnail">
+				<img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png" width="150" height="150">
+			</div>
+		</div>
+
+		<div class="col-sm-4 " style="font-size: 20px">
+			<h2 >Album Title:Reputation</h2>	
+		</div>
+				
+		<div class="col-sm-4 " style="font-size: 20px">
+			<h2 >Artist:Taylor Swift</h2>
+		</div>
+	</div>
+</div>
+<h2>Songs In Album Reputation:</h2>	
+</div>
+
+	
+	
+	
+</div>
+
+{% if error_message %}
+	<p><strong>{{error_message}}</strong></p>
+{% endif %}
+
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row justify-content-center">
+				
+				<div class="col-sm-3 ">
+					<div class="thumbnail">
+						<img src="https://static.billboard.com/files/media/taylor-swift-2010-billboard-1500-300x169.jpg" alt="Italian Trulli" width="220" height="300">
+						<h3 class="text-center">New Start</h3>
+					</div>
+				</div>
+
+				<div class="col-sm-3 ">
+					<div class="thumbnail">
+						<img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1500&h=1500&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2019%2F10%2F25%2Ffearless.jpg" alt="Italian Trulli" width="220" height="300">
+						<h3 class="text-center">Fearless</h3>
+				    </div>
+				</div>
+
+				<div class="col-sm-3 ">
+					<div class="thumbnail">
+						<img src="https://pyxis.nymag.com/v1/imgs/98f/80f/6acd3c5b29bc656fd9eb2359f1884e378b-24-taylor-swift-1989.2x.h473.w710.jpg" alt="Italian Trulli" width="240" height="300">
+						<h3 class="text-center">old times</h3>
+					</div>
+				</div>
+
+				<div class="col-sm-3 ">
+					<div class="thumbnail">
+						<img src="https://stateofmind13.files.wordpress.com/2011/06/sparks-fly-cover-taylor-swift.png" alt="Italian Trulli" width="220" height="300">
+						<h3 class="text-center">Sparkle</h3>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
